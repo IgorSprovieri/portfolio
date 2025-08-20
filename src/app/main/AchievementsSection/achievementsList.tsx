@@ -1,0 +1,43 @@
+export const achievementsList = [
+  {
+    index: "achievement-0",
+    src: "/achievements/ufabc.png",
+    alt: "UFABC Logo",
+    height: 64,
+    width: 64,
+    date: "2018",
+    description: "Fui aprovado na Universidade Federal do ABC",
+  },
+  {
+    index: "achievement-1",
+    src: "/achievements/csj.png",
+    alt: "CSJ Logo",
+    date: "2020-2021",
+    description: "Redigi mais de 100 artigos no site Crie Seus Jogos",
+  },
+  {
+    index: "achievement-2",
+    src: "/achievements/steam.svg",
+    alt: "Stean Logo",
+    height: 64,
+    width: 64,
+    date: "2020-2022",
+    description: "Desenvolvi e publiquei 13 jogos autorais na Steam",
+  },
+  {
+    index: "achievement-3",
+    src: "/achievements/John_Deere.png",
+    alt: "John Deere Logo",
+    date: "2023",
+    description: "Desenvolvi um aplicativo para uma grande empresa",
+  },
+  {
+    index: "achievement-4",
+    src: "/achievements/bestbarbers.png",
+    alt: "BestBarbers Logo",
+    height: 64,
+    width: 64,
+    date: "2024-2025",
+    description: "Desenvolvi, em equipe, um sistema completo para uma startup",
+  },
+];
