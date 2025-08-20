@@ -201,8 +201,8 @@ export const projectsList = [
             requisitados todos os meses, além de alguns bugs para arrumar.
             <br />
             <br />
-            Iniciamos o processo de migração utilizando 2 api's e implementamos
-            um versionamento para evitar grandes problemas.
+            Iniciamos o processo de migração utilizando 2 api&apos;s e
+            implementamos um versionamento para evitar grandes problemas.
           </p>
         </Card>
         <h2 className="mt-4 text-primary font-bold text-[18px]">

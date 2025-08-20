@@ -17,7 +17,7 @@ import {
 export type ReviewCardProps = {
   title: string;
   subTitle: string;
-  smallDescription: string;
+  smallDescription: ReactNode;
   description: ReactNode;
   hideShowMoreButton?: boolean;
 };
