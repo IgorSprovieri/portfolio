@@ -57,9 +57,10 @@ export const HomeSection = () => {
                         React Native (Expo) e backend com Node (Express e Nest).
                         <br />
                         <br />
-                        Sou uma pessoa mais lógica do que criativa, embora tenha
-                        sempre muitas ideias e flexibilidade para discutir sua
-                        viabilidade e implementação.
+                        Sou uma pessoa lógica e criativa, tenho muitas ideias e
+                        sempre tento encontrar a melhor solução, focando em
+                        processos, manutenção e performance. Sempre trago
+                        soluções e melhorias a serem discutidas com a equipe.
                         <br />
                         <br />
                         Gosto de ser desafiado com problemas complexos, nos
@@ -67,11 +68,6 @@ export const HomeSection = () => {
                         discussão. Prezo pela qualidade das entregas, com código
                         legível, separação de responsabilidades e documentação,
                         quando necessário.
-                        <br />
-                        <br />
-                        Meu ponto forte é a organização e estruturação, que
-                        ajudam na escalabilidade e produtividade da equipe no
-                        longo prazo, mas sempre tomando decisões em conjunto.
                         <br />
                         <br />
                         Também destaco a depuração e correção de bugs, consigo
