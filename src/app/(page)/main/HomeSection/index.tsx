@@ -54,7 +54,8 @@ export const HomeSection = () => {
                         <br />
                         <br />
                         Tenho conhecimento em frontend React (Next), mobile com
-                        React Native (Expo) e backend com Node (Express e Nest).
+                        React Native (Expo) e backend com Node (Express e Nest),
+                        onde tenho me especializado.
                         <br />
                         <br />
                         Sou uma pessoa lógica e criativa, tenho muitas ideias e
