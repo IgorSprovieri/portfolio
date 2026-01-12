@@ -21,9 +21,9 @@ export const HomeSection = () => {
             <MainTitleTypewritter text="Olá, Muito prazer! Sou o Igor Sprovieri" />
 
             <p className="text-[13px] lg:text-[14px]">
-              Após atuar 3 anos como desenvolvedor de jogos, migrei para a área
-              de desenvolvimento web, onde atuo desde 2023 com Node, React e
-              React Native.
+              Desenvolvedor desde 2020, tenho experiência com APIs, sites,
+              aplicativos e jogos. Nos últimos anos tenho atuado
+              majoritariamente no frontend de aplicações web e mobile.
             </p>
 
             <div className="flex items-center justify-center gap-2 lg:justify-start">
@@ -48,37 +48,48 @@ export const HomeSection = () => {
                     <DialogDescription />
                     <div className="h-[80dvh] overflow-x-scroll lg:h-fit">
                       <div className="text-[14px] leading-[1.25] tracking-[-0.2] [word-spacing:0px] pl-2 pt-1 text-black text-left lg:text-[16px]">
-                        Após atuar por 3 anos como desenvolvedor de jogos com a
-                        Unity, migrei para a área de desenvolvimento web, onde
-                        atuo desde 2023.
+                        Desenvolvedor desde 2020, tenho experiência com APIs,
+                        sites, aplicativos e jogos. Nos últimos anos tenho
+                        atuado majoritariamente no frontend de aplicações web e
+                        mobile com React.js, Next.js, React Native e Expo
                         <br />
                         <br />
-                        Tenho conhecimento em frontend React (Next), mobile com
-                        React Native (Expo) e backend com Node (Express e Nest),
-                        onde tenho me especializado.
+                        Sou uma pessoa autodidata que tem facilidade em se
+                        adaptar a vários contextos, linguagens e ferramentas,
+                        além de ser colaborativo e pensar &quot;fora da
+                        caixa&quot; para buscar soluções.
                         <br />
                         <br />
-                        Sou uma pessoa lógica e criativa, tenho muitas ideias e
-                        sempre tento encontrar a melhor solução, focando em
-                        processos, manutenção e performance. Sempre trago
-                        soluções e melhorias a serem discutidas com a equipe.
+                        Nos 3 primeiros anos da minha carreira trabalhei como
+                        desenvolvedor de jogos com a Unity em mais de 15
+                        projetos que hoje estão publicados e sendo jogados por
+                        milhares de pessoas.
                         <br />
                         <br />
-                        Gosto de ser desafiado com problemas complexos, nos
-                        quais sempre me envolvo trazendo soluções para
-                        discussão. Prezo pela qualidade das entregas, com código
-                        legível, separação de responsabilidades e documentação,
-                        quando necessário.
+                        Já fiz um projeto para uma grande empresa chamado Áster
+                        Recomenda, onde desenvolvi um aplicativo e um site que
+                        monitoram máquinas agrícolas e otimizam a produtividade
+                        de fazendas por todo o Brasil.
                         <br />
                         <br />
-                        Também destaco a depuração e correção de bugs, consigo
-                        manter a calma em momentos críticos, o que me ajuda a
-                        tomar boas decisões e resolver problemas complexos.
+                        Trabalhei por muito tempo em uma startup chamada
+                        BestBarbers, onde pude desenvolver meu conhecimento em
+                        desenvolvimento web, principalmente no frontend.
                         <br />
                         <br />
-                        Gosto muito de arquitetura de código, padrões de projeto
-                        e como aprendi a programar com C#, tenho grande
-                        familiaridade com programação orientada a objetos.
+                        Também já mentorei desenvolvedores iniciantes,
+                        implementei arquiteturas como Atomic Design e Monorepo,
+                        desenvolvi sites do zero para startups e fiz um projeto
+                        voluntário para a Igreja.
+                        <br />
+                        <br />
+                        Minha Stack Atual: HTML, CSS, JavaScript, TypeScript,
+                        React.js, Vite, Next.js, Chakra UI, Tailwind CSS,
+                        Shadcn/ui, React Native, Expo, EAS, xCode, Android
+                        Studio, React Query, Zustand, Zod, React Hook Form,
+                        Node, Git, GitHub, Firebase, CI/CD (Vercel e Render),
+                        Orval, Vitest, Cypress, Figma, Atomic Design, Docker,
+                        AWS EC2 e S3.
                       </div>
                     </div>
                   </DialogHeader>
@@ -89,8 +100,8 @@ export const HomeSection = () => {
 
           <div className="w-32 lg:w-fit">
             <Image
-              src="https://media.licdn.com/dms/image/v2/D4D03AQFTOLD2FM3S4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726236010303?e=1758153600&v=beta&t=Vj4z1sFqja5gyuD_m1Oxu9GlRJchnwd5Rhymk6SKmLo"
-              alt="igor-sprovieri-photo"
+              src="/igor-sprovieri.jpeg"
+              alt="igor-sprovieri-image"
               width={200}
               height={200}
               style={{ borderRadius: 12 }}
