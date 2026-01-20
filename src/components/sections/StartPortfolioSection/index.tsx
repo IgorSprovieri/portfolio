@@ -21,11 +21,10 @@ export const StartPortfolioSection = () => {
         </div>
       </div>
 
-      <p className="text-md max-w-[768px] text-center">
+      <p className="text-md max-w-[692px] text-center">
         Programador autodidata desde os 15 anos de idade, tenho experiência
         profissional desde 2020 com desenvolvimento de APIs, sites, aplicativos
-        e jogos. Atualmente, atuo majoritariamente no frontend de aplicações web
-        e mobile.
+        e jogos. Atualmente, atuo no desenvolvimento de aplicações web e mobile.
       </p>
 
       <Card className="flex flex-row items-center justify-between w-[934px] py-6 px-16">
