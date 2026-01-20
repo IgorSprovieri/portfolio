@@ -67,14 +67,19 @@ export const asterRecomenda = {
       <h2 className="mt-4 text-primary font-bold text-[18px]">Execução</h2>
       <Card className="mt-1.5">
         <p className="text-[13px] lg:text-[16px] text-left">
-          Para chegarmos no melhor resultado e evitar imprevistos, optei por
-          desenhar a estrutura base do aplicativo no Figma.
+          Desenhei o aplicativo no Figma para alinharmos o produto com a
+          experiência de usuário.
           <br />
           <br />
           Por ser um projeto de escopo pequeno, utilizei uma componetização
           simples com React e decidi por usar React Native com Expo para
           facilitar o processo de publicação, já que não necessitaria de
           bibliotecas nativas específicas.
+          <br />
+          <br />
+          Integrei a Api que já estava pronta com Tanstack Query e desenvolvi o
+          login com Microsoft Azure para que somente funcionários autorizados
+          pudessem usar o aplicativo.
           <br />
           <br />
           Melhorei a experiência de usuário através de animações e optei por
