@@ -54,7 +54,7 @@ export const useTypewritter = (
 
       observer.unobserve(element);
     };
-  }, []);
+  }, [delay, finalText, ref]);
 
   return text;
 };

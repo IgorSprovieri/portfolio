@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  background-color: var(--background);
   font-family: var(--font-jetBrains-mono);
 }
 
@@ -56,15 +55,15 @@ body {
 
 :root {
   --radius: 0.625rem;
-  --background: #fafafa;
+  --background: #f6f6f7;
   --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
+  --card: #ffffff;
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: #0073b1;
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: #00b17f;
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
@@ -128,6 +127,6 @@ body {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
 }
