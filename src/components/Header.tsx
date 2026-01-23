@@ -15,8 +15,10 @@ export const Header: FC<HeaderProps> = ({
   renderHeaderMenuAnchor,
 }) => {
   return (
-    <header className="w-[calc(100%-32px)] sm:w-max flex justify-between items-center fixed bg-card py-2.5 px-3 top-4 sm:top-8 left-1/2 -translate-x-1/2 z-50 rounded-full shadow-md gap-6">
-      <Image height={40} width={40} src={logoSrc || "/logo.svg"} alt="logo" />
+    <header className="w-[calc(100%-32px)] sm:w-max flex justify-between items-center fixed bg-card p-2 sm:py-2.5 sm:px-3 top-4 sm:top-8 left-1/2 -translate-x-1/2 z-50 rounded-full shadow-md gap-6">
+      <div className="relative w-8 h-8 sm:w-10  sm:h-10 overflow-hidden">
+        <Image fill src={logoSrc || "/logo.svg"} alt="logo" />
+      </div>
 
       <menu className="hidden sm:flex gap-8">
         <Link className={HEADER_MENU_ANCHOR_CLASSNAME} href="/">
@@ -35,11 +37,11 @@ export const Header: FC<HeaderProps> = ({
         </div>
       </menu>
 
-      <div className="flex items-center justify-between mr-4 gap-2">
+      <div className="flex items-center justify-between mr-2 sm:mr-4 gap-2">
         <a
           href="https://github.com/IgorSprovieri"
           target="_blank"
-          className="relative w-7 h-7 overflow-hidden"
+          className="relative h-6 w-6 sm:w-7 sm:h-7 overflow-hidden"
         >
           <Image fill src="/icons/Github.png" alt="GitHub" />
         </a>
@@ -47,7 +49,7 @@ export const Header: FC<HeaderProps> = ({
         <a
           href="https://br.linkedin.com/in/igor-sprovieri"
           target="_blank"
-          className="relative w-7 h-7 overflow-hidden"
+          className="relative h-6 w-6 sm:w-7 sm:h-7 overflow-hidden"
         >
           <Image fill src="/icons/Linkedin.png" alt="Linkedin" />
         </a>
