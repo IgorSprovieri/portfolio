@@ -20,7 +20,7 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col items-center justify-center gap-0.5 sm:gap-4 lg:gap-12 w-full h-full">
-            <h2 className="text-sm sm:text-xl lg:text-2xl w-full text-center font-bold">
+            <h2 className="text-sm sm:text-2xl w-full text-center font-bold">
               Bem-Vindo ao meu Dev Blog!
             </h2>
             <p className="text-[10px] sm:text-lg lg:text-lg w-full text-center">
