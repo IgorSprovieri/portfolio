@@ -19,7 +19,7 @@ export default function Home() {
               className="object-cover"
             />
           </div>
-          <div className="flex flex-col items-center justify-center gap-0.5 sm:gap-4 lg:gap-12 w-full h-full">
+          <div className="flex flex-col items-center justify-center gap-0.5 sm:gap-4 w-full h-full">
             <h2 className="text-sm sm:text-2xl w-full text-center font-bold">
               Bem-Vindo ao meu Dev Blog!
             </h2>
