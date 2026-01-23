@@ -8,11 +8,11 @@ export const AboutMeSection: FC = () => {
   return (
     <section
       id="about-section"
-      className="flex flex-col gap-16 items-center justify-start scroll-mt-48"
+      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-[946px] px-3"
     >
       <SectionTitle firstText="Um Pouco" secondText="Sobre Mim" />
-      <Card className="w-[934px] flex flex-row items-center justify-center gap-6 py-4">
-        <div className="relative w-72 h-96 overflow-hidden">
+      <Card className="w-full flex flex-row items-center justify-center gap-6 py-3 sm:py-6">
+        <div className="hidden sm:flex relative w-72 h-96 overflow-hidden">
           <Image
             src="/dummy/dummy-hello.png"
             alt="igor-sprovieri-image"
@@ -21,7 +21,7 @@ export const AboutMeSection: FC = () => {
           />
         </div>
 
-        <p className="text-md w-full">
+        <p className="text-sm sm:text-lg w-full">
           Minha trajetória começou muito cedo, sou autodidata e, aos 15 anos,
           aprendi a criar jogos com a Unity, inicialmente como hobby. Em 2020,
           abri meu primeiro estúdio de jogos, no qual desenvolvi e publiquei

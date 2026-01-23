@@ -22,14 +22,16 @@ export type ReviewCardProps = {
 
 export const ReviewCard: FC<ReviewCardProps> = ({ review }) => {
   return (
-    <Card className="w-full px-4 h-full">
+    <Card className="w-full p-2 sm:p-3 h-full">
       <div className="flex flex-col items-center justify-between h-full">
         <div>
-          <h2 className="text-primary text-[18px] font-bold">{review.title}</h2>
-          <h3 className="text-gray-500 font-bold text-[16px] m-[-1px]">
+          <h2 className="text-primary text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
+            {review.title}
+          </h2>
+          <h3 className="text-gray-500 font-bold text-[13px] sm:text-[14px] lg:text-[16px] m-[-1px]">
             {review.subTitle}
           </h3>
-          <p className="text-[14px] leading-[1.3] tracking-[-0.2] [word-spacing:0px] pl-2 pt-1.5 text-left">
+          <p className="text-[12px] sm:text-[14px] leading-[1.3] tracking-[-0.2] [word-spacing:0px] pt-1.5 text-left">
             {review.smallDescription}
           </p>
         </div>
@@ -41,7 +43,8 @@ export const ReviewCard: FC<ReviewCardProps> = ({ review }) => {
                 className={buttonVariants({
                   variant: "outline",
                   size: "sm",
-                  className: "mt-3",
+                  className:
+                    "text-[11px] sm:text-sm py-0.5 sm:px-2 sm:py-0.5 h-max lg:mt-3",
                 })}
               >
                 Ver Mais
@@ -52,7 +55,7 @@ export const ReviewCard: FC<ReviewCardProps> = ({ review }) => {
                     {review.title}
                   </DialogTitle>
                   <DialogDescription />
-                  <div className="text-[14px] leading-[1.25] tracking-[-0.2] [word-spacing:0px] pl-2 pt-1 text-black lg:text-[16px] text-left">
+                  <div className="text-[12px] sm:text-[14px] leading-[1.25] tracking-[-0.2] [word-spacing:0px] pl-2 pt-1 text-black lg:text-[16px] text-left">
                     {review.description}
                   </div>
                 </DialogHeader>

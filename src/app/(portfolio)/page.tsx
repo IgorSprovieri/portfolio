@@ -40,7 +40,7 @@ export default function Portfolio() {
         )}
       />
 
-      <main className="flex flex-col gap-16 items-center justify-start my-32">
+      <main className="flex flex-col gap-8 sm:gap-16 items-center justify-start mt-24 mb-32 sm:my-32">
         <FadeInEffect>
           <StartPortfolioSection />
         </FadeInEffect>

@@ -39,20 +39,20 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   readMode,
 }) => {
   return (
-    <Card>
+    <Card className="p-2 lg:p-3">
       <CardHeader>
         <div className="rounded-lg overflow-hidden border border-gray-100 shadow-sm">
           <Image width={200} height={96} alt={alt} src={src} />
         </div>
-        <CardTitle className="mt-1">{title}</CardTitle>
+        <CardTitle className="mt-1 hidden sm:flex">{title}</CardTitle>
       </CardHeader>
 
-      <CardContent className="flex flex-col mt-0.5">
+      <CardContent className="flex flex-col mt-1.5 sm:mt-0.5">
         <CardDescription className="w-full">{description}</CardDescription>
       </CardContent>
 
       <CardFooter className="flex justify-between items-center mt-2">
-        <div className="flex gap-1.5 justify-start items-center">
+        <div className="hidden sm:flex gap-1.5 justify-start items-center">
           {skillIcons}
         </div>
 
@@ -63,7 +63,8 @@ export const ProjectCard: FC<ProjectCardProps> = ({
                 className={buttonVariants({
                   variant: "outline",
                   size: "sm",
-                  className: "text-sm px-2 py-0.5 h-fit",
+                  className:
+                    "text-[11px] sm:text-sm py-0.5 sm:px-2 sm:py-0.5 h-max",
                 })}
               >
                 Ver Mais

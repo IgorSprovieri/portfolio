@@ -13,12 +13,15 @@ export const Typewritter = () => {
 
   return (
     <>
-      <Card className="bg-primary flex items-center justify-center p-4">
-        <h1 ref={firstTextRef} className="text-4xl text-card font-bold">
+      <Card className="bg-primary flex items-center justify-center p-3 sm:p-4">
+        <h1
+          ref={firstTextRef}
+          className="text-2xl sm:text-4xl text-card font-bold"
+        >
           {firstText}
         </h1>
       </Card>
-      <h1 ref={secondTextRef} className="text-4xl font-bold">
+      <h1 ref={secondTextRef} className="text-2xl sm:text-4xl font-bold">
         {secondText}
       </h1>
     </>

@@ -16,7 +16,7 @@ export const SectionTitle: FC<SectionTitleProps> = ({
   return (
     <div
       ref={ref}
-      className="flex flex-col w-full items-center justify-center gap-[4px]"
+      className="flex flex-col w-full items-center justify-center gap-1"
     >
       <h2 className="font-bold text-[26px] lg:text-[32px] leading-[1]">
         {"{"}

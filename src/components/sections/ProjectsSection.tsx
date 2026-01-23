@@ -9,17 +9,18 @@ export const ProjectsSection = () => {
   return (
     <section
       id="projects-section"
-      className="flex flex-col gap-16 items-center justify-start scroll-mt-48"
+      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-[946px] px-3"
     >
       <SectionTitle firstText="Portfólio de" secondText="Projetos" />
-      <Tabs defaultValue="projects" className="gap-4">
-        <Card className="max-w-[934px] flex items-center justify-center">
+
+      <Tabs defaultValue="projects" className=" gap-2 sm:gap-4">
+        <Card className="w-full flex items-center justify-center p-1 sm:p-2">
           <TabsList className="justify-between w-full">
             {projectsService.map(({ tabId, tabName }) => (
               <TabsTrigger
                 key={tabId}
                 value={tabId}
-                className="flex flex-col items-center justify-center gap-4 lg:gap-8 lg:flex-row"
+                className="flex flex-col items-center justify-center sm:gap-8 sm:flex-row text-sm sm:text-lg"
               >
                 {tabName}
               </TabsTrigger>
@@ -31,7 +32,7 @@ export const ProjectsSection = () => {
           <TabsContent
             key={tabId}
             value={tabId}
-            className="grid grid-cols-4 gap-4 max-w-[934px]"
+            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 w-full"
           >
             {projects.map(({ skillIcons, ...projectProps }) => (
               <ProjectCard

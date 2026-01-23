@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${jetBrainsMono.variable} antialiased w-[100dvw] h-[100dvh] overflow-hidden p-4 bg-secondary`}
+        className={`${jetBrainsMono.variable} antialiased w-[100dvw] h-[100dvh] overflow-hidden p-2 sm:p-4 bg-secondary`}
       >
         {children}
       </body>

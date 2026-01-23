@@ -9,7 +9,7 @@ export default function Home() {
     <PageScrollProgress>
       <Header />
 
-      <main className="flex flex-col gap-4 items-center justify-start mt-32">
+      <main className="flex flex-col gap-4 items-center justify-start mt-24 sm:my-32">
         <Card className="w-[934px] flex flex-row items-center justify-center gap-16 py-4 px-16">
           <div className="relative w-64 h-64 overflow-hidden">
             <Image
