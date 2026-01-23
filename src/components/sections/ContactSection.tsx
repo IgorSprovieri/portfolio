@@ -9,7 +9,7 @@ export const ContactSection: FC = () => {
   return (
     <section
       id="contact-section"
-      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-[946px] px-3"
+      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-236.5 px-3"
     >
       <SectionTitle firstText="Entre em" secondText="Contato" />
       <Card className="w-full flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-0 lg:gap-12 py-3 px-3 sm:px-4">

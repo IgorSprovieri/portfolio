@@ -6,7 +6,7 @@ export const ExperiencesSection = () => {
   return (
     <section
       id="experiences-section"
-      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-[946px] px-3"
+      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-236.5 px-3"
     >
       <SectionTitle firstText="Minha" secondText="Carreira" />
 

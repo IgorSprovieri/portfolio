@@ -10,7 +10,7 @@ export type OpenArticleButtonProps = {
 export const OpenArticleButton: FC<OpenArticleButtonProps> = ({ src }) => (
   <Button
     variant="outline"
-    className="text-sm px-2 py-0.5 h-fit"
+    className="text-[10px] sm:text-sm px-2 py-0.5 h-fit"
     onClick={() => window.open(src, "_blank", "noopener,noreferrer")}
   >
     Aprender

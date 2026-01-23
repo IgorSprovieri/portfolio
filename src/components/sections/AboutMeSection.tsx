@@ -8,7 +8,7 @@ export const AboutMeSection: FC = () => {
   return (
     <section
       id="about-section"
-      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-[946px] px-3"
+      className="flex flex-col gap-8 sm:gap-16 items-center justify-start scroll-mt-48 max-w-236.5 px-3"
     >
       <SectionTitle firstText="Um Pouco" secondText="Sobre Mim" />
       <Card className="w-full flex flex-row items-center justify-center gap-6 py-3 sm:py-6">

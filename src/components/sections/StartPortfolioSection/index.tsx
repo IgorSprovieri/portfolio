@@ -4,7 +4,7 @@ import { Typewritter } from "./client/Typewritter";
 
 export const StartPortfolioSection = () => {
   return (
-    <section className="flex flex-col gap-6 sm:gap-16 items-center justify-start max-w-[946px] px-3">
+    <section className="flex flex-col gap-6 sm:gap-16 items-center justify-start max-w-236.5 px-3">
       <div className="flex flex-col-reverse sm:flex-row gap-4 sm:gap-6 items-center justify-center">
         <div className="flex flex-col gap-2 items-center justify-center">
           <Typewritter />
