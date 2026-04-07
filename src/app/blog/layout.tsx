@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
-import "../globals.css";
+import type { Metadata } from 'next';
+import { JetBrains_Mono } from 'next/font/google';
+import '../globals.css';
 
 const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-jetBrains-mono",
-  subsets: ["latin"],
+  variable: '--font-jetBrains-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "Igor Sprovieri",
-  description: "Igor Sprovieri - Desenvolvedor Web",
+  title: 'Igor Sprovieri',
+  description: 'Igor Sprovieri - Desenvolvedor Web',
 };
 
 export default function RootLayout({

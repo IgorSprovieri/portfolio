@@ -1,13 +1,15 @@
-import { Card } from "@/components";
-import { BlogCard } from "@/components/cards/BlogCard";
-import { Header } from "@/components/Header";
-import { PageScrollProgress } from "@/components/PageScrollProgress";
-import Image from "next/image";
+import { BlogCard } from '@/presentation/components/shared/BlogCard';
+import { PageScrollProgressComponent } from '@/presentation/components/shared/PageScrollProgress.component';
+import { Card } from '@/presentation/components/ui/card';
+
+import { HeaderMenuView } from '@/presentation/components/views/HeaderMenu.view';
+
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <PageScrollProgress>
-      <Header />
+    <PageScrollProgressComponent>
+      <HeaderMenuView />
 
       <main className="flex flex-col gap-4 items-center justify-start mt-24 sm:my-32 px-3">
         <Card className="w-full flex flex-row items-center justify-center py-2 px-1 sm:p-4 lg:px-4 lg:gap-4 max-w-236.5">
@@ -38,6 +40,6 @@ export default function Home() {
           />
         </div>
       </main>
-    </PageScrollProgress>
+    </PageScrollProgressComponent>
   );
 }

@@ -47,3 +47,5 @@ npm run dev
 ### _Igor Sprovieri Pereira_
 
 After working as a Unity developer for 3 years, I migrated to the web development area and currently have Fullstack and Mobile knowledge with React, React Native and Node.
+
+docker compose up -d
