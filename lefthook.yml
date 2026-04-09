@@ -7,7 +7,7 @@ pre-commit:
       stage_fixed: true
 
     lint:
-      run: pnpm lint {staged_files}
+      run: pnpm eslint {staged_files}
       glob: '*.{ts,tsx}'
       stage_fixed: true
 
