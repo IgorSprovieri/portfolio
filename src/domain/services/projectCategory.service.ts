@@ -5,7 +5,7 @@ export interface IProjectCategoryRepository {
   getCategories(): Promise<ProjectCategoryEntity[]>;
 }
 
-class ProjectCategoryService {
+export class ProjectCategoryService {
   constructor(
     private readonly projectCategoriesRepository: IProjectCategoryRepository
   ) {}

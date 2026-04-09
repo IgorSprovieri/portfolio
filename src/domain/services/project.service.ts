@@ -11,13 +11,13 @@ export interface IProjectRepository {
   ): Promise<Partial<Record<string, ProjectEntity[]>> | ProjectEntity[]>;
 }
 
-class ProjectService {
-  constructor(private readonly projectsRepository: IProjectRepository) {}
+export class ProjectService {
+  constructor(private readonly projectRepository: IProjectRepository) {}
 
   async getAllProjectsGroupedByCategory(): Promise<
     Partial<Record<string, ProjectEntity[]>> | ProjectEntity[]
   > {
-    const foundProjects = await this.projectsRepository.getProjects({
+    const foundProjects = await this.projectRepository.getProjects({
       groupBy: {
         category: true,
       },

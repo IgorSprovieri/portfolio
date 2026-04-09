@@ -5,7 +5,7 @@ export interface IReviewsRepository {
   getReviews(): Promise<ReviewEntity[]>;
 }
 
-class ReviewsService {
+export class ReviewService {
   constructor(private readonly reviewsRepository: IReviewsRepository) {}
 
   async getAllReviews() {
@@ -13,4 +13,4 @@ class ReviewsService {
   }
 }
 
-export const reviewsService = new ReviewsService(reviewsRepository);
+export const reviewService = new ReviewService(reviewsRepository);
