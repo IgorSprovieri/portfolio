@@ -1,5 +1,5 @@
 import { ExperienceEntity } from '@/domain/entities/experience.entity';
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const experienceMock: ExperienceEntity = {
   id: '1',
@@ -10,6 +10,10 @@ const experienceMock: ExperienceEntity = {
 };
 
 describe('Experience Entity', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
+
   it('should be defined', () => {
     expect(ExperienceEntity).toBeDefined();
   });

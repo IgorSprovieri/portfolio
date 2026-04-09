@@ -1,5 +1,5 @@
 import { ProjectEntity } from '@/domain/entities/project.entity';
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const projectMock: ProjectEntity = {
   id: '1',
@@ -29,6 +29,10 @@ const projectMock: ProjectEntity = {
 };
 
 describe('Project Entity', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
+
   it('should be defined', () => {
     expect(ProjectEntity).toBeDefined();
   });

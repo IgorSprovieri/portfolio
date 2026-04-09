@@ -9,7 +9,7 @@ import { Card } from '../components/ui/card';
 import Image from 'next/image';
 import { Mail, Phone } from 'lucide-react';
 import { ListAllProjectsTabbedByCategoryController } from '../controllers/ListAllProjectsTabbedByCategory.controller';
-import { HeaderMenuController } from '../controllers/HeaderMwnu.controller';
+import { HeaderMenuController } from '../controllers/HeaderMenu.controller';
 import { AboutMeCardController } from '../controllers/AboutMeCard.controller';
 import { StackCardController } from '../controllers/StackCard.controller';
 

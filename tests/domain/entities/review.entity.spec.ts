@@ -1,5 +1,5 @@
 import { ReviewEntity } from '@/domain/entities/review.entity';
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const reviewMock: ReviewEntity = {
   id: '1',
@@ -10,6 +10,10 @@ const reviewMock: ReviewEntity = {
 };
 
 describe('Review Entity', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
+
   it('should be defined', () => {
     expect(ReviewEntity).toBeDefined();
   });
